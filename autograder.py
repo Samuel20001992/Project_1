@@ -33,6 +33,7 @@ def readCommand(argv):
     parser.set_defaults(generateSolutions=False, edxOutput=False, gsOutput=False, muteOutput=False, printTestCase=False, noGraphics=False)
     parser.add_option('--test-directory',
                       dest = 'testRoot',
+                      
                       default = 'test_cases',
                       help = 'Root test directory which contains subdirectories corresponding to each question')
     parser.add_option('--student-code',
